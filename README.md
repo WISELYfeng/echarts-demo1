@@ -12,3 +12,7 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 
 ## project description
 - [项目地址](https://juejin.cn/post/7036745610954801166#heading-16)
+
+## 踩坑记录
+
+1. 配置了prettier和eslint的代码规范，再加上husky检查commit的代码，会出现有代码因为;被拦截的问题，在eslintrc中改成 semi: 0,避免代码提交不上
