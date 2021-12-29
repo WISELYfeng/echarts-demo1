@@ -20,6 +20,11 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
+"@element-plus/icons-vue@^0.2.2":
+  version "0.2.4"
+  resolved "https://registry.npmmirror.com/@element-plus/icons-vue/download/@element-plus/icons-vue-0.2.4.tgz#dadcf72f0cea53dc83b7b7db80e1418716d7b02c"
+  integrity sha512-RsJNyL58rwxtsjeMy34o8txkL6UlME1stWsUlRpTac6UE9Bx9gdJvnDXbIKhOJqBLX17fBjmposdrn6VTqim2w==
+
 "@emmetio/abbreviation@^2.2.2":
   version "2.2.2"
   resolved "https://registry.nlark.com/@emmetio/abbreviation/download/@emmetio/abbreviation-2.2.2.tgz#746762fd9e7a8c2ea604f580c62e3cfe250e6989"
@@ -88,6 +93,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@popperjs/core@^2.10.2":
+  version "2.11.0"
+  resolved "https://registry.npmmirror.com/@popperjs/core/download/@popperjs/core-2.11.0.tgz#6734f8ebc106a0860dff7f92bf90df193f0935d7"
+  integrity sha512-zrsUxjLOKAzdewIDRWy9nsV1GQsKBCWaGwsZQlCgr6/q+vjyZhFgqedLfFBuI9anTPEUT4APq9Mu0SZBTzIcGQ==
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
@@ -343,6 +353,21 @@
   resolved "https://registry.npmmirror.com/@vue/shared/download/@vue/shared-3.2.26.tgz#7acd1621783571b9a82eca1f041b4a0a983481d9"
   integrity sha512-vPV6Cq+NIWbH5pZu+V+2QHE9y1qfuTq49uNWw4f7FDEeZaDU2H2cx5jcUZOAKW7qTrUS4k6qZPbMy1x4N96nbA==
 
+"@vueuse/core@^7.0.0":
+  version "7.4.1"
+  resolved "https://registry.npmmirror.com/@vueuse/core/download/@vueuse/core-7.4.1.tgz#81ede3f67dfd58af8284c910ac2fee25458892c6"
+  integrity sha512-8UeLPCAieeQLXFHF1/28SIEK6ILLPb/4hp03hR+xkXF00gB/YUp0CEVcRAL9uQ8HTZa3S2T/jTISMc1ZjilM0A==
+  dependencies:
+    "@vueuse/shared" "7.4.1"
+    vue-demi "*"
+
+"@vueuse/shared@7.4.1":
+  version "7.4.1"
+  resolved "https://registry.npmmirror.com/@vueuse/shared/download/@vueuse/shared-7.4.1.tgz#0aa090147fbd66ba56334ada1ffa2dafab815c1b"
+  integrity sha512-Pzb7XoHIcgPwwBJ5Ow9lZb0HTDyaLDV3pgxKauPGTMN9qvEylG06kUG+VTjJXkPsRtiGu46di8XyFeMw2dongA==
+  dependencies:
+    vue-demi "*"
+
 acorn-jsx@^5.3.1:
   version "5.3.2"
   resolved "https://registry.nlark.com/acorn-jsx/download/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
@@ -483,6 +508,11 @@ astral-regex@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/astral-regex/download/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
   integrity sha1-SDFDxWeu7UeFdZwIZXhtx319LjE=
+
+async-validator@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.npmmirror.com/async-validator/download/async-validator-4.0.7.tgz?cache=0&sync_timestamp=1634529640870&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fasync-validator%2Fdownload%2Fasync-validator-4.0.7.tgz#034a0fd2103a6b2ebf010da75183bec299247afe"
+  integrity sha1-A0oP0hA6ay6/AQ2nUYO+wpkkev4=
 
 babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -868,6 +898,11 @@ dart-sass@^1.25.0:
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
+dayjs@^1.10.7:
+  version "1.10.7"
+  resolved "https://registry.npmmirror.com/dayjs/download/dayjs-1.10.7.tgz#2cf5f91add28116748440866a0a1d26f3a6ce468"
+  integrity sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig==
+
 debug@^4.1.1, debug@^4.3.2:
   version "4.3.3"
   resolved "https://registry.npmmirror.com/debug/download/debug-4.3.3.tgz#04266e0b70a98d4462e6e288e38259213332b664"
@@ -989,6 +1024,20 @@ editorconfig@^0.15.3:
     lru-cache "^4.1.5"
     semver "^5.6.0"
     sigmund "^1.0.1"
+
+element-plus@^1.2.0-beta.6:
+  version "1.2.0-beta.6"
+  resolved "https://registry.npmmirror.com/element-plus/download/element-plus-1.2.0-beta.6.tgz#9fa01a06950eb0380f0454cb75aefaaf5b81b043"
+  integrity sha512-8EdSIR/5/FHcSB8w1diAh+gJMHgxIvxuZoayY99k6taAR1QyEFHuPTgFccZLopJ1+iP4UEsZFz49l57qS08Utw==
+  dependencies:
+    "@element-plus/icons-vue" "^0.2.2"
+    "@popperjs/core" "^2.10.2"
+    "@vueuse/core" "^7.0.0"
+    async-validator "^4.0.7"
+    dayjs "^1.10.7"
+    lodash "^4.17.21"
+    memoize-one "^6.0.0"
+    normalize-wheel-es "^1.1.1"
 
 emmet@^2.3.0:
   version "2.3.5"
@@ -2217,6 +2266,11 @@ make-dir@^3.0.0:
   dependencies:
     semver "^6.0.0"
 
+memoize-one@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npmmirror.com/memoize-one/download/memoize-one-6.0.0.tgz?cache=0&sync_timestamp=1634700259037&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fmemoize-one%2Fdownload%2Fmemoize-one-6.0.0.tgz#b2591b871ed82948aee4727dc6abceeeac8c1045"
+  integrity sha1-slkbhx7YKUiu5HJ9xqvO7qyMEEU=
+
 merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.nlark.com/merge-stream/download/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
@@ -2342,6 +2396,11 @@ normalize-url@^4.1.0:
   version "4.5.1"
   resolved "https://registry.nlark.com/normalize-url/download/normalize-url-4.5.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnormalize-url%2Fdownload%2Fnormalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
   integrity sha1-DdkM8SiO4dExO4cIHJpZMu5IUYo=
+
+normalize-wheel-es@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmmirror.com/normalize-wheel-es/download/normalize-wheel-es-1.1.1.tgz#a8096db6a56f94332d884fd8ebeda88f2fc79569"
+  integrity sha1-qAlttqVvlDMtiE/Y6+2ojy/HlWk=
 
 npm-package-arg@^6.0.0:
   version "6.1.1"

@@ -3,6 +3,7 @@
   <div>{{ mainStore.name }} : {{ mainStore.nameLength }}</div>
   <hr />
   <button @click="updateName">修改name</button>
+  <el-button type="primary">蓝色</el-button>
 </template>
 
 <script setup lang="ts">
